@@ -52,10 +52,9 @@ RCSB PDB, PubChem, UCSF Chimera, Open Babel, CB-Dock2, AutoDock Tools (ADT), PyM
 | 4    | -5.131                     | 2.841    |
 | 5    | -5.086                     | 3.689    |
 
-![Binding Energy Graph](images/graph.png)  
-![Docked Structure](images/docking_pose.png)
+[Binding Energy Graph](result-graph.jpeg)
 
----
+[Hydrogen Interactions](image-hydrogen interactions.png)
 
 ## Results
 
