@@ -1,0 +1,40 @@
+   66  sudo apt-get instal sra-toolkt -yl
+   67  sudo apt-get install sra-toolkit -y
+   68  fasterq-dump --version
+   69  which fasterq-dump
+   70  mkdir -p ~/16S_rna_data && cd ~/16S_rna_data
+   71  fasterq-dump SRR36788484 -O ~/16S_rna_data
+   72  ls ~/16S_rna_data
+   73  qiime tools import --type 'SampleDat[PairedEndSequencesWithQuality]'--input-path ~/16S_rna_data --input-format CasavaOneEightSingleLanePerSampleDirFmt --output-path ~/16s_rna_data/paired-end-demux.qza
+   74  ls ~/16S_rna_data
+   75  conda deactivate
+   76  exit
+   77  conda deactivate
+   78  conda config --set auto_activate_base false
+   79  exit
+   80  cd/mnt/c/users/jaspreet/desktop
+   81  ped
+   82  pwd
+   83  ls /mnt/c
+   84  cd /mnt/c/Users
+   85  ls
+   86  pwd
+   87  cd /mnt/c/Users/jaspreet/Desktop
+   88  pwd
+   89  ls /mnt/c/users
+   90  cd /mnt/c/Users/Lenovo/Desktop
+   91  mkdir omics_hub
+   92  ls
+   93  touch omics.txt
+   94  ls
+   95  cp omics.txt omics_hub/
+   96  ls omics_hub
+   97  mv omics_hub/omics.txt omics_hub/microbiome.txt
+   98  ls omics_hub
+   99  mkdir microbiome_training
+  100  ls
+  101  cp omics_hub/microbiome.txt microbiome_training/
+  102  ls microbiome_training
+  103  rm -r omics_hub
+  104  ls
+  105  history | tail -n 40 > omics_jaspreetkaursukheeja_India.txt
