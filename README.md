@@ -14,4 +14,5 @@ UCSF Chimera, AutoDock Tools, CB-Dock2, Galaxy, FastQC, MultiQC, Trim Galore, HI
 
 ## Author
 
-Jaspreet Kaur Sukheeja
+Jaspreet Kaur 
+jaspreet.kaur.bi28@iilm.edu
